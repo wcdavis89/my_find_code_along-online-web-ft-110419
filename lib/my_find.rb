@@ -3,6 +3,7 @@ require 'pry'
 def my_find(collection)
 i=0 
 while i<collection.size 
+yield(collection[i])
 i=i+1 
 end
 end
